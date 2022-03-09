@@ -10,4 +10,4 @@ A página possuí semântica e interação com o usuário.
 </div>
 <br/>
 
-### [Link para a Página]( "Sidebar")
+### [Link para a Página](https://luca-merighi.github.io/DesafioDiscover-Sidebar/ "Sidebar")
