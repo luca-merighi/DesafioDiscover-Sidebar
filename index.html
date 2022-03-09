@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Luca Merighi">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/sidebar-header.css">
+    <link rel="stylesheet" href="./styles/sidebar-active.css">
+    
+    <link rel="shortcut icon" href="./img/dashboard.png" type="image/x-icon">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="sidebar">
+        <header class="header">
+            <img src="./img/logo.svg" alt="Logo Vet">
+
+            <div class="toggle-buttons">
+                <img 
+                src="./img/menu.svg" 
+                alt="Menu Icon" 
+                class="menu-icon">
+
+                <img 
+                src="./img/close.svg" 
+                alt="Close Icon" 
+                class="close-icon hide">
+            </div>
+        </header>
+        
+        <nav class="nav">
+            <a href="#" class="link selected">
+                <img src="./img/search.svg" alt="Search Icon">
+                <span>Buscar</span>
+            </a>
+            <a href="#" class="link">
+                <img src="./img/grid.svg" alt="Grid Icon">
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="link">
+                <img src="./img/pet.svg" alt="Pets Icon">
+                <span>Pets</span>
+            </a>
+            <a href="#" class="link">
+                <img src="./img/user.svg" alt="Clients Icon">
+                <span>Clientes</span>
+            </a>
+            <a href="#" class="link">
+                <img src="./img/vet.svg" alt="Vets Icon">
+                <span>Vets</span>
+            </a>
+            <a href="#" class="link">
+                <img src="./img/settings.svg" alt="Settings Icon">
+                <span>Ajustes</span>
+            </a>
+        </nav>
+
+        <footer class="footer">
+            <div class="profile">
+                <img src="./img/avatar.png" alt="Profile Picture">
+                <div class="text">
+                    <span>Eleanor Pena</span>
+                    <span>Veterinária</span>
+                </div>
+            </div>
+
+            <a href="#">
+                <img src="./img/log-out.svg" alt="Logout Icon">
+            </a>
+        </footer>
+    </div>
+
+    <main id="dashboard">
+        <h1>Dash<span>board</span></h1>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>

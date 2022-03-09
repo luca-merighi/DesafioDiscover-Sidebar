@@ -1,0 +1,37 @@
+#sidebar.active {
+    width: 18rem;
+}
+
+#sidebar.active .nav {
+    align-items: flex-start;
+}
+
+#sidebar.active .nav .link {
+    gap: .5rem;
+    text-decoration: none;
+    color: var(--text-color);
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#sidebar.active .nav .link span {
+    display: block;
+}
+
+#sidebar.active .footer {
+    padding: 1rem 0 1rem 10px;
+    justify-content: space-around;
+}
+
+#sidebar.active .footer .profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 2rem;
+}
+
+#sidebar.active .footer .profile .text {
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+}
